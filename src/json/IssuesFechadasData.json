@@ -1,0 +1,15 @@
+{
+    "IssuesFechadasData": [
+        { "titulo": "Update README.md: Fix spelling mistake", "numero": "#1", "data": "fechado em 31 de Março em 2015", "tags": [
+            { "name": "perf: startup", "hover": "Problema de performance em relação ao início do aplicativo","color": "#334033", "text_color": "#61C01C" },
+            { "name": "team engine", "hover": "Feito pelo Engine Team","color": "#2A4136", "text_color": "#2FD639" },
+            { "name": "encontrado na versão 1.0", "hover": "Ocorrência encontrada na versão 1.0","color": "#535653", "text_color": "#FEE798" }
+            ], "usuario": "Buildedstone"
+        },
+        { "titulo": "specialization constants crashing Moto G4 driver", "numero": "#2", "data": "fechado em 25 de Abril em 2015", "tags": [
+            { "name": "perf: startup", "hover": "Problema de performance em relação ao início do aplicativo","color": "#334033", "text_color": "#61C01C" },
+            { "name": "encontrado na versão 1.2", "hover": "Ocorrência encontrada na versão 1.2","color": "#535653", "text_color": "#FEE798" }
+            ], "usuario": "Omega"
+        }
+    ]
+}

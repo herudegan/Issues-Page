@@ -1,0 +1,272 @@
+.padding{
+    padding: 0 1em;
+}
+
+.container{
+    max-width: 60em;
+    margin: 0 auto;
+}
+
+h1{
+    color: hsl(0, 0%, 80%);
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 3em;
+    margin-bottom: 5em;
+}
+
+.table{
+    width: 100%;
+    min-height: 30em;
+    text-align: left;
+    border-collapse: collapse;
+    color: #fff;
+}
+tr{
+    width: 100%;
+    min-height: 5em;
+    border: 0.5px solid #444C56;
+    display: flex;
+}
+tr:first-child{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+tr:last-child{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+tr:hover{
+    background-color: #2D333B;
+}
+
+.open{
+    height: 2.9em;
+    margin-left: 1em;
+    min-height: 3em;
+    color: red;
+    min-height: 30px;
+    min-width: 30px;
+}
+.closed{
+    height: 2.9em;
+    margin-left: 1em;
+    min-height: 3em;
+    line-height: 100%;
+    vertical-align: bottom;
+    color: green;
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.tr-text{
+    padding: 0 0.5em;
+    font-size: 1em;
+    line-height: 100%; 
+    vertical-align: bottom;
+}
+.tr-text:hover{
+    color: hsl(212, 48%, 60%);
+    cursor: pointer;
+}
+.tr-text-author{
+    text-align: left;
+    margin-left: 0.5em;
+    font-size: 1em;
+    color: #718390;
+}
+.tr-text-user{
+    text-align: left;
+    margin-left: 0.5em;
+    padding-right: 1em;
+    font-size: 1em;
+    color: #718390;
+}
+.tr-text-user:hover{
+    color: hsl(212, 48%, 60%);
+    cursor: pointer;
+}
+
+.header{
+    background-color: #2D333B;
+    max-height: 10em;
+}
+.header p{
+    max-height: 10em;
+    line-height: 2em;
+    margin-left: 0.5em;
+    font-size: 0.8em;
+    color: #ADBAC7;
+}
+.open-header{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    color: #ADBAC7;
+    height: 100%;
+    margin-left: 1em;
+}
+.open-header:hover{
+    color: hsl(210, 19%, 90%);
+}
+.open-icon{
+    margin-top: 0.5em;
+    min-height: 30px;
+    min-width: 30px;
+}
+.closed-header{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    color: #7D8792;
+    margin-left: 1em;
+}
+.closed-header:hover{
+    color: hsl(211, 9%, 85%);
+}
+.closed-icon{
+    margin-top: 0.5em;
+    min-height: 30px;
+    min-width: 30px;
+}
+
+.dropdown-container {
+    float: right;
+    text-align: left;
+    color: #7D8792;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-name:hover{
+    color: hsl(211, 9%, 80%);
+}
+  
+.dropdown-input {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    user-select: none;
+}
+  
+.dropdown-menu{
+    position: absolute;
+    width: 15em;
+    top: 2.5em;
+    right: 0em;
+    max-height: 11.5em;
+    border: 1px solid #444C56;
+    border-radius: 5px;
+    overflow: auto;
+    background-color: #2D333B;
+}
+
+.right{
+    left: 0em;
+}
+  
+.dropdown-item {
+    padding: 5px;
+    font-size: 0.8em;
+    font-weight: 400;
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #444C56;
+    cursor: pointer;
+}
+.dropdown-item:hover {
+    background-color: #434b56;
+}
+  
+.sort-text{
+    padding: 5px;
+    cursor: auto;
+}
+  
+.dropdown-item.selected {
+    background-color: #434b56;
+    color: #fff;
+}   
+  
+.search-box {
+    padding: 5px;
+    border-top: 1px solid #444C56;
+}
+.search-box input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #444C56;
+    background-color: #1C2128;
+    color: #fff;
+    border-radius: 5px;
+}
+.search-box input:focus {
+    outline: 0;
+    border-color: #539BF5;
+}
+  
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #1C2128; 
+}
+::-webkit-scrollbar-thumb {
+    background: #444C56; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: hsl(213, 12%, 25%); 
+}
+  
+@media (max-width: 560px){
+    .deletable{
+        display: none;
+    }
+}
+  
+.image{
+    width: 2em;
+    border-radius: 25px;
+}
+.label{
+    margin-left: 5px;
+    line-height: 2em;
+}
+  
+.sticky{
+    position: sticky;
+    left: 100em;
+}
+
+.tags{
+    max-width: 13em;
+    min-height: 1.5em;
+    font-size: 0.75em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-left: 0.5em;
+    text-align: center;
+}
+
+.clean{
+    width: 8em;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 1em;
+    color: #718390;
+}
+.clean:hover{
+    color: hsl(205, 12%, 85%);
+}
+.clean-icon{
+    min-height: 20px;
+    min-width: 20px;
+}

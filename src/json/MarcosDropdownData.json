@@ -1,0 +1,9 @@
+{
+    "MarcosDropdownData": [
+      { "value": "sem_marco", "label": "Problemas sem marcos" },
+      { "value": "impeller_iOs", "label": "Impeller no iOS" },
+      { "value": "impeller_macOs", "label": "Impeller no macOS" },
+      { "value": "impeller_android", "label": "Impeller no Android" },
+      { "value": "lancamentos_automaticos", "label": "Lançamentos Externos Automáticos" }
+    ]
+  }

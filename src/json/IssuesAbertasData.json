@@ -1,0 +1,15 @@
+{
+    "IssuesAbertasData": [
+        { "titulo": "[Impeller] Vulkan GPU tracing should include final command buffer. ", "numero": "#136971", "data": "aberto 3 horas atrás", "tags": [
+            { "name": "c: performance", "hover": "Se refere a problemas de velocidade","color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "c: regression", "hover": "Era melhor no passado do que agora","color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "perf: startup", "hover": "Problema de performance em relação ao início do aplicativo","color": "#334033", "text_color": "#61C01C" }
+            ], "usuario": "Herudegan"
+        },
+        { "titulo": "'Updating project for Xcode compatibility' - Don't lower LastUpgradeCheck. ", "numero": "#136972", "data": "aberto 1 hora atrás", "tags": [
+            { "name": "c: performance", "hover": "Se refere a problemas de velocidade", "color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "encontrado na versão: 3.6", "hover": "Ocorrência encontrada na versão 3.6", "color": "#535653", "text_color": "#FEE798" }
+            ], "usuario": "Dolly"
+        }
+    ]
+}

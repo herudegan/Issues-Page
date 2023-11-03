@@ -1,0 +1,10 @@
+{
+    "RotuloDropdownData": [
+      { "value": "acessibilidade", "label": "Acessibilidade" },
+      { "value": "adaptibilidade", "label": "Adaptibilidade" },
+      { "value": "animacao", "label": "Animação" },
+      { "value": "assets", "label": "Assets" },
+      { "value": "desktop", "label": "Desktop" },
+      { "value": "debugging", "label": "Debugging" }
+    ]
+  }

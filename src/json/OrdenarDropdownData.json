@@ -1,0 +1,10 @@
+{
+  "OrdenarDropdownData": [
+    { "value": "mais_novo", "label": "Mais Novo" },
+    { "value": "mais_velho", "label": "Mais Velho" },
+    { "value": "mais_comentado", "label": "Mais Comentado" },
+    { "value": "menos_comentado", "label": "Menos Comentado" },
+    { "value": "atualizado_recentemente", "label": "Atualizado Recentemente" },
+    { "value": "menos_atualizado", "label": "Atualizado menos recente" }
+  ]
+}

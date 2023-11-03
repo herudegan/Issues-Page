@@ -1,0 +1,145 @@
+.row{
+    max-width: 60em;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-filters{
+    display: flex;
+    flex-direction: row;
+    min-width: 5em;
+    background-color: #2D333B;
+    border: 1px solid #444C56;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+}
+.div-filters-text{
+    margin-left: 1em;
+    font-size: 0.8em;
+    font-weight: bold;
+    color: #ADBAC7;
+}
+
+.input-filters{
+    width: 100%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #1C2128;
+    border: 1px solid #444C56;
+    color: #768390;
+    background-image: url(../images/mag_glass.png);
+    background-size: 2em;
+    background-repeat: no-repeat;
+    background-position: 1em center;
+    padding-left: 4em;
+}
+.input-filters:focus{
+    outline: 0;
+    border-color: hsl(212, 48%, 60%);
+}
+.input-filters::placeholder{
+    color: #768390;
+}
+
+.dropdown-icon{
+    height: 100%;
+}
+
+.button-label{
+    position: absolute;
+    top: 15em;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    min-height: 3em;
+    line-height: 3.5em;
+    min-width: 7.5em;
+    max-width: 7.5em;
+    margin-left: 1em;
+    background-color: #1C2128;
+    border: 1px solid #444C56;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: none;
+    color: #ADBAC7;
+}
+.button-label:hover{
+    background-color: #2D333B;
+    cursor: pointer;
+}
+
+.button-milestones{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    min-height: 3em;
+    line-height: 3.5em;
+    min-width: 7.5em;
+    max-width: 10em;
+    background-color: #1C2128;
+    border: 1px solid #444C56;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #ADBAC7;
+    top: 15em;
+    left: 8.5em;
+}
+.button-milestones:hover{
+    background-color: #2D333B;
+    cursor: pointer;
+}
+
+.button-new{
+    position: absolute;
+    min-width: 5em;
+    min-height: 3.8em;
+    top: 15em;
+    right: 1em;
+    background-color: #46954A;
+    color: white;
+    font-weight: bold;
+    border: 0px solid;
+    border-radius: 5px;
+}
+.button-new:hover{
+    background-color: hsl(124, 41%, 45%);
+    cursor: pointer;
+}
+
+.button-icon{
+    margin-right: 0.3em;
+    margin-left: 0.5em;
+    height: 3.5em;
+    color: #ADBAC7;
+    width: 1.6em;
+}
+.button-icon-mile{
+    margin-right: 0.3em;
+    margin-left: 0.5em;
+    padding: 0px;
+    color: #ADBAC7;
+    height: 3.3em;
+    width: 1.6em;
+}
+
+@media (min-width: 600px) {
+    .button-label{
+        position: inherit;
+    }
+    .button-milestones{
+        position: inherit;
+        min-width: 7.5em;
+    }
+    .button-new{
+        position: inherit;
+        margin-left: 1em;
+    }
+    .button-icon{
+        width: 1.6em;
+    }
+    .button-icon-mile{
+        width: 7.5em;
+    }
+}

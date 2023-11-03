@@ -1,0 +1,11 @@
+{
+    "CessionarioDropdownData": [
+        { "value": "sem_cessionario", "label": "Atribuído à ninguém" },
+        { "value": "herudegan", "label": "Herudegan", "img": "herudegan.png" },
+        { "value": "dolly", "label": "Dolly", "img": "dolly.png" },
+        { "value": "omega", "label": "Omega", "img": "omega.png" },
+        { "value": "buildedstone", "label": "Buildedstone", "img": "buildedstone.png" },
+        { "value": "wipo", "label": "Wipo", "img": "wipo.png" },
+        { "value": "ds7", "label": "Ds7", "img": "ds7.png" }
+    ]
+  }
