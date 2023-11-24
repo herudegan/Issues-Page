@@ -2,13 +2,13 @@ import './filters.css'
 import { MdArrowDropDown } from "react-icons/md";
 import { BsTag } from "react-icons/bs";
 import { LuMilestone } from "react-icons/lu";
-
+import { openModal } from '../App';
 
 export default function Filter_input() {
 
     return(
         <div className='row'>
-            <div className='div-filters'>
+            <div className='div-filters' onClick={openModal}>
                 <p className='div-filters-text'>Filters</p>
                 <MdArrowDropDown color='#ADBAC7' size={25} className='dropdown-icon'/>
             </div>
