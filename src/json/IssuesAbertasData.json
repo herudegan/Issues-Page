@@ -1,15 +1,22 @@
 {
     "IssuesAbertasData": [
-        { "titulo": "[Impeller] Vulkan GPU tracing should include final command buffer. ", "numero": "#136971", "data": "aberto 3 horas atrás", "tags": [
-            { "name": "c: performance", "hover": "Se refere a problemas de velocidade","color": "#4E2F36", "text_color": "#F4AAAC" },
-            { "name": "c: regression", "hover": "Era melhor no passado do que agora","color": "#4E2F36", "text_color": "#F4AAAC" },
-            { "name": "perf: startup", "hover": "Problema de performance em relação ao início do aplicativo","color": "#334033", "text_color": "#61C01C" }
-            ], "usuario": "Herudegan"
+        { "titulo": "Abastecedora Edith G. P. Assunção", "numero": "#9026", "data": "aberto dia 06/10/2023 às 08:44:46", "tags": [
+            { "name": "Ocorrido inesperado (erro)", "hover": "Classificação","color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "Em analise", "hover": "Status","color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "Registrado", "hover": "Situação","color": "#334033", "text_color": "#61C01C" }
+            ], "usuario": "Rodrigo Tuon", "assunto": "[ERRO] Cálculo de projeção de lucro no pg mobile, pg monitor e sistema estão apresentando valores divergentes.", "sla": "19/10/2023"
         },
-        { "titulo": "'Updating project for Xcode compatibility' - Don't lower LastUpgradeCheck. ", "numero": "#136972", "data": "aberto 1 hora atrás", "tags": [
-            { "name": "c: performance", "hover": "Se refere a problemas de velocidade", "color": "#4E2F36", "text_color": "#F4AAAC" },
-            { "name": "encontrado na versão: 3.6", "hover": "Ocorrência encontrada na versão 3.6", "color": "#535653", "text_color": "#FEE798" }
-            ], "usuario": "Dolly"
+        { "titulo": "Auto Posto Alvorada", "numero": "#9046", "data": "aberto dia 10/10/2023 às 15:34:03", "tags": [
+            { "name": "Ocorrido inesperado (erro)", "hover": "Classificação","color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "Em analise", "hover": "Status","color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "Registrado", "hover": "Situação","color": "#334033", "text_color": "#61C01C" }
+            ], "usuario": "Angelo Silvestre", "assunto": "Data de emissão diferente do caixa.", "sla": "20/10/2023"
+        },
+        { "titulo": "Posto Maloni", "numero": "#9063", "data": "aberto dia 13/10/2023 às 09:51:19", "tags": [
+            { "name": "Ocorrido inesperado (erro)", "hover": "Classificação","color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "Em analise", "hover": "Status","color": "#4E2F36", "text_color": "#F4AAAC" },
+            { "name": "Registrado", "hover": "Situação","color": "#334033", "text_color": "#61C01C" }
+            ], "usuario": "Vinicius de Santana Mateus", "assunto": "Código ANP inválido - Abastece Aí.", "sla": "null"
         }
     ]
 }

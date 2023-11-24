@@ -4,12 +4,13 @@ import "../css/app.css";
 import { IoMdArrowDropdown } from 'react-icons/io'
 import { useState, useEffect, useRef } from "react";
 
-const Dropdown = ({ placeHolder, options, isSearchable, isRight, isDeletable }) => {
+const Dropdown = ({ placeHolder, options, isSearchable, isRight, isDeletable, isModal, isChangeable }) => {
   const [showMenu, setShowMenu] = useState(false)
   const [selectedValue, setSelectedValue] = useState(null)
   const searchRef = useRef()
   const inputRef = useRef()
   const [searchValue, setSearchValue] = useState("")
+  var place = null
   const logo = "./"
 
   useEffect(() => {
@@ -37,7 +38,10 @@ const Dropdown = ({ placeHolder, options, isSearchable, isRight, isDeletable }) 
   }
 
   const getDisplay = () => {
-    return placeHolder;
+    if (selectedValue && isChangeable) {
+      return selectedValue.label;
+    }
+    return placeHolder
   };
 
   const onItemClick = (x) => {
@@ -63,9 +67,9 @@ const Dropdown = ({ placeHolder, options, isSearchable, isRight, isDeletable }) 
   }
 
   return (
-    <div className={`dropdown-container  ${isDeletable ? "deletable" : ''}`}>
+    <div className={`${isModal ? "modal-dropdown-container" : "dropdown-container"}  ${isDeletable ? "deletable" : ''}`}>
       <div ref={inputRef} onClick={handleInputClick} className="dropdown-input">
-        <div className="dropdown-name">{getDisplay()}</div>
+        <div className={`${isModal ? "modal-dropdown-name" : "dropdown-name"}`}>{getDisplay()}</div>
         <div className="dropdown-tools">
           <div className="dropdown-tool">
             <IoMdArrowDropdown style={{marginTop: '0.5em'}} />
